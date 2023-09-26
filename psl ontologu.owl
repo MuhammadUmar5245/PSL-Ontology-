@@ -1,0 +1,1673 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2">
+        <rdfs:comment xml:lang="this">This is an ontology about PSL</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_catagories -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_catagories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_cities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_cities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_management -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_management">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_players -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_players">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_staff -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_staff">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_suponsors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#has_suponsors">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_dob -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_dob">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_franchise -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_franchise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#player_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ariel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ariel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Blitz_International -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Blitz_International">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Brighto_Paints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Brighto_Paints">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Head_and_Shoulders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Head_and_Shoulders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Inverex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Inverex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jubilee_Life_Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jubilee_Life_Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#OPPO_Mobiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#OPPO_Mobiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pepsi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pepsi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Franchises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Pakistan_Super_League"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tapal_Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tapal_Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#TransGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#TransGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Habib_Bank_Limited_(HBL) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Habib_Bank_Limited_(HBL)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sponsors"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aamir_Yamin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aamir_Yamin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26-06-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Aamir Yamin</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aaqib_Javed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aaqib_Javed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05-08-1972</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Aaqib Javed</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Abrar_Ahmed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Abrar_Ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16-10-1998</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Adil_Rashid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Adil_Rashid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Supplimentory</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17-02-1988</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Adil Rashid</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ahsan_Raza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ahsan_Raza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">29-05-1974</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_name>Ahsan Raza</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aimal_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aimal_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24-06-2006</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Aimal Khan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Akeal_Hosein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Akeal_Hosein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25-04-1993</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Akeal Hosein</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aleem_Dar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Aleem_Dar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06-06-1968</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_name>Aleem Dar</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Alex_Hales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Alex_Hales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03-01-1989</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Alex Hales</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Alex_Wharf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Alex_Wharf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04-06-1975</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_name>Alex Wharf</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Amir_Jamal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Amir_Jamal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23-03-1997</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Amir Jamal</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Andy_Flower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Andy_Flower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head  Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28-04-1968</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Andy Flower</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Anwar_Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Anwar_Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25-11-1987</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Anwar Ali</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Arshad_Iqbal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Arshad_Iqbal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26-12-2000</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Arshad Iqbal</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ashley_Wright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ashley_Wright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Batting Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21-10-1980</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Ashley Wright</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Asif_Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Asif_Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category rdf:datatype="http://www.w3.org/2001/XMLSchema#short">diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-09-1991</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise rdf:datatype="http://www.w3.org/2001/XMLSchema#short">Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Asif Ali</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Azam_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Azam_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10-08-1998</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Azhar_Mahmood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Azhar_Mahmood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28-02-1975</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Azhar Mahmood</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Babar_Azam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Babar_Azam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15-10-1994</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Babar Azam</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Colin_Munro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Colin_Munro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11-03-1987</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Danish_Aziz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Danish_Aziz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20-11-1995</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Danish Aziz</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Daren_Sammy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Daren_Sammy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head Caoch</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20-12-1983</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Daren Sammy</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#David_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#David_Miller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10-06-1989</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>David Miller</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Dilbar_Hussian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Dilbar_Hussian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20-02-1993</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Dilbar Hussain
+</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Dougie_Brown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Dougie_Brown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Bowling Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">07-08-1940</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi kIngs</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Dougie Brown</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Faheem_Ashraf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Faheem_Ashraf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16-01-1994</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Fakhar_Zaman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Fakhar_Zaman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10-04-1992</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandar
+</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Fakhar Zaman</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Fazal_Haq_Farooqi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Fazal_Haq_Farooqi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22-09-2000</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Haider_Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Haider_Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02-09-2000</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Haider Ali</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hasan_Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hasan_Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02-07-1994</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hashim_Amla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hashim_Amla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Batting coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">31-03-1983</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Hashim Amla</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hassan_Nawaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hassan_Nawaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21-08-2004</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hussain_Talat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Hussain_Talat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12-02-1996</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Muhammad Hussain Talat
+</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Iftikhar_Ahmad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Iftikhar_Ahmad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03-09-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Iftikhar Ahmad</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ihsanullah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ihsanullah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11-10-2002</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan </untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Ihsanullah</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Imad_Wasim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Imad_Wasim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-12-1988</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Imad Wasim</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Imran_Tahir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Imran_Tahir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27-03-1979</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Irfan_Khan_Niazi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Irfan_Khan_Niazi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-11-2003</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Shawaiz Irfan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Irshad_Iqbal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Irshad_Iqbal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25-08-1998</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Irshad Iqbal</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jalat_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jalat_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Supplimantary</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03-02-1986</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Jalat Khan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jason_Roy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jason_Roy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Joel_Wilson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Joel_Wilson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">30-12-1966</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_name>Joel Wilson</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jordan_Cox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Jordan_Cox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Supplimentary</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21-10-2000</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Jordan Mathew Cox</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Josh_Little -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Josh_Little">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-11-1999</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Josh Little</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Liam_Dawson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Liam_Dawson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-03-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Liam Dawson</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mansoor_Rana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mansoor_Rana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Batting Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27-12-1962</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Mansoor Rana</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Martin_Guptill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Martin_Guptill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Supplimentary</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">30-09-1986</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Martin Guptill</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Meer_Hamza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Meer_Hamza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10-09-1992</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Meer Hamza</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Moeen_Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Moeen_Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-06-1987</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Akram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Akram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Hasnain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Hasnain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05-04-2000</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Mohammad Hasnain</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Nawaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mohammad_Nawaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21-03-1994</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Mohammad Nawaz</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Moin_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Moin_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23-09-1971</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Moin Khan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mubasir_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mubasir_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24-04-2002</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Aamir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Aamir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13-04-1992</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Muhammad Aamir</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Akhlaq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Akhlaq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12-11-1992</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalanders</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Muhammad Akhlaq</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Rizwan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Rizwan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age>30</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-06-1992</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Muhammad Rizwan
+</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Waseem_Jr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Muhammad_Waseem_Jr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25-08-2001</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mujeeb_Ur_Rehman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Mujeeb_Ur_Rehman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28-03-2001</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Mujeeb Ur Rehman</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Naveen_ul_Haq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Naveen_ul_Haq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23-09-1999</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Naveen ul Haq</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ottis_Gibson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Ottis_Gibson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Bowling Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16-03-1969</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Ottis Gibson</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Paul_Stirling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Paul_Stirling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03-09-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Paul Stirling</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peter_Moores -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peter_Moores">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Head Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-12-1962</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Peter Moores</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Qasim_Akram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Qasim_Akram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-12-2002</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Qasim Akram</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rahmanullah_Gurbaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rahmanullah_Gurbaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28-09-2001</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rilee_Rossow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rilee_Rossow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09-10-1989</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Rilee Rossow</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Roman_Powel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Roman_Powel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinium</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23-06-1993</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Pesahwar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Roman Powel</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rumman_Raees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Rumman_Raees">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-10-1991</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Saeed_Ajmal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Saeed_Ajmal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Saim_Ayub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Saim_Ayub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Emerging</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24-015-2002</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Saim Ayub</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sarfraz_Ahmed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sarfraz_Ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22-05-1987</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Sarfraz Ahmed</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shadab_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shadab_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04-10-1998</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Islamabad United</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Shadab Khan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shaheen_Shah_Afridi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shaheen_Shah_Afridi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06-04-2000</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Lahore Qalander</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name rdf:datatype="http://www.w3.org/2001/XMLSchema#Name">Shaheen Shah Afridi</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shahnawaz_Dahani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shahnawaz_Dahani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold
+</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05-08-1998</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Shahnawaz Dahani</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shan_Masood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shan_Masood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Multan_Sultan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14-10-1989</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Multan Sultan</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Shan Masood</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sharjeel_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sharjeel_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14-08-1989</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Sharjeel Khan</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shoaib_Malik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shoaib_Malik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Diamond"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Diamond</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-02-1982</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Shoaib Malik</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shozab_Raza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Shozab_Raza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umpires"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">31-10-1964</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_name>Shozab Raza</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sikender_Raza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sikender_Raza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Gold"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Gold</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24-04-1986</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalamders
+</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Sikender Raza</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sohaib_Maqsood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Sohaib_Maqsood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35
+</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15-04-1987</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tabrez_Shamsi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tabrez_Shamsi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Karachi_Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Supplimentary"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Supplimentry</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-02-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Karachi Kings</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Jimmy Neesham</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tayyab_Tahir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Tayyab_Tahir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Lahore_Qalandars"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26-07-1993</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Lahore Qalandars</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Tayyab Tahir</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umar_Akmal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umar_Akmal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Silver"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>silver</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26-05-1990</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Umar Akmal</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umar_Gull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Umar_Gull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Management"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Staff"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Bowling Coach</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15-10-1982</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Umar Gull</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Wahab_Riaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Wahab_Riaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Peshawar_Zalmi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28-06-1985</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Peshawar Zalmi</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Wahab Riaz</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Wanindu_Hasaranga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Wanindu_Hasaranga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Platinum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Quetta_Gladiators"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_category>Platinum</untitled-ontology-2:player_category>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29-07-1997</untitled-ontology-2:player_dob>
+        <untitled-ontology-2:player_franchise>Quetta Gladiators</untitled-ontology-2:player_franchise>
+        <untitled-ontology-2:player_name>Wanindu Hasaranga</untitled-ontology-2:player_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Zeeshan_Zamir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Zeeshan_Zamir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Emerging"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Islamabad_United"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rajau/ontologies/2023/2/untitled-ontology-2#Players"/>
+        <untitled-ontology-2:player_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</untitled-ontology-2:player_age>
+        <untitled-ontology-2:player_dob rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20-12-2002</untitled-ontology-2:player_dob>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:comment xml:lang="en">PSL has Franchises, Hotels,Management,Players,Sponsors,Security</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
